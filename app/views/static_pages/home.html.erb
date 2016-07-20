@@ -1,0 +1,3 @@
+<h1>Welcome to SSO</h1>
+<p>Username: <%= current_user.email %></p>
+<p><%= link_to "Logout", destroy_user_session_path, method: :delete %></p>
